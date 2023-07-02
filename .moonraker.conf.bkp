@@ -99,3 +99,7 @@ restart_klipper_when_powered = True
 restart_delay = 3.
 on_when_job_queued = True
 
+[job_queue]
+load_on_startup = False
+automatic_transition = False
+
